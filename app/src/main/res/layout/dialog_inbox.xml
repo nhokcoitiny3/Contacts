@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+   >
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="AAAAAAAAA"
+        android:textColor="@color/color_black"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_content"
+        android:background="#559e9e9e"
+        android:padding="8dp"
+        android:textSize="13sp"
+        android:text="0000000000"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <TextView
+        android:id="@+id/txt_time"
+        android:text="xx/xx"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_ok"
+        android:text="ok"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</layout>
